@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Calculator of lifetime";
+}
+@model WebApplication1.calculatoroflifetime.model.Calculator
+
+    <h1>Calculator of lifetime</h1>
+
+<form asp-controller="Calculator" asp-action="Index" method="post">
+    <div class="text-center">
+        <label asp-for="nameOfPerson"></label>
+        <input type="text" asp-for="nameOfPerson" required />
+        <label asp-for="dateOfBirth"></label>
+        <input type="datetime-local" asp-for="dateOfBirth" required />
+        <input type="submit" value="Submit" asp-action="Index" />
+    </div>
+
+    <h3>@ViewData["Result"]</h3>
+</form>

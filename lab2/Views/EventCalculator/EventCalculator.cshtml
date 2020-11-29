@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "Simple calculator";
+}
+@model lab2.eventcalculator.model.EventCalculator;
+
+<h1>Event calculator</h1>
+
+<h4>@ViewData["CurrentDate"]</h4>
+
+<form asp-controller="EventCalculator" asp-action="EventCalculator" method="post">
+    <div class="text-center">
+        <label asp-for="pathToFile"></label>
+        <input id="inputField" type="text" asp-for="pathToFile"/>
+        <input type="submit" value="Submit" asp-action="EventCalculator" />
+    </div>
+
+    <pre>@ViewData["Result"]</pre>
+</form>

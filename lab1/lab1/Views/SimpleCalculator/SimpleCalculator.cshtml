@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Simple calculator";
+}
+@model WebApplication1.simplecalculator.model.SimpleCalculator
+
+<h1>Simple calculator</h1>
+
+<form asp-controller="SimpleCalculator" asp-action="SimpleCalculator" method="post">
+    <div class="text-center">
+        <label asp-for="content"></label>
+        <input id="inputField" type="text" asp-for="content" oninvalid="setCustomValidity('Input field should contain only numbers and + - * / dot and comma')"/>
+        <input type="submit" value="Submit" asp-action="SimpleCalculator" />
+    </div>
+
+    <h3>@ViewData["Result"]</h3>
+</form>
