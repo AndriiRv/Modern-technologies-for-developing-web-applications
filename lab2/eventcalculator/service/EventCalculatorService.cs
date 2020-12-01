@@ -11,7 +11,6 @@ namespace lab2.eventcalculator.service
             if (pathToFile != null && pathToFile != "")
             {
                 String[] lines = getContentOfFile(pathToFile);
-
                 String[] resultArray = new String[lines.Length];
 
                 for (int i = 0; i < lines.Length; i++)
@@ -24,7 +23,6 @@ namespace lab2.eventcalculator.service
                     String eventTitle = line.Substring(indexSeparator).Replace('|', ' ').Trim();
 
                     DateTime dateTimeMarkNow = getCurrentDateTime();
-
                     String countOfDays = getCountOfDays(dateTimeMarkNow, date);
 
                     resultArray[i] = date + " | " + eventTitle + ". " + countOfDays;

@@ -12,4 +12,8 @@
     <ProjectReference Include="..\lab1\lab1\lab1.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="album\controller\" />
+  </ItemGroup>
+
 </Project>
