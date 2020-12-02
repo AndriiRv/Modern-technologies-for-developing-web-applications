@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace lab2_WebForm_ {
+namespace lab1_task2_WebForm_ {
     
     
     public partial class ViewSwitcher {
