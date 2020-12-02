@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <country id="usa">
+  </country>
+  <country id="ukraine">
+    <nationality id="Ukrainian">
+      <about>Ukrainians are an East Slavic ethnic group native to Ukraine, which is by total population the seventh-largest[47] nation in Europe and the second-largest among the East Slavs after the Russians. The Constitution of Ukraine applies the term 'Ukrainians' to all its citizens. The people of Ukraine have historically been known as "Ruthenians", "Little Russians", and "Cossacks", among others. The connection with the Zaporozhian Cossacks especially, is emphasized in the Ukrainian national anthem, "We are, brothers, of Cossack kin". According to most dictionary definitions, a descriptive name for the "inhabitants of Ukraine" is Ukrainian or Ukrainian people. The majority of Ukrainians are Eastern Orthodox Christians.</about>
+      <file name="ukr.png">ukrainian</file>
+      <file name="cossacks.jpg">cossacks</file>
+    </nationality>
+    <nationality id="Russians">
+      <about>Russians are an East Slavic ethnic group native to Eastern Europe, who share a common Russian ancestry, culture, and history. Russian is the shared mother tongue of the ethnic Russians, and Orthodox Christianity is their historical religion. They are the largest Slavic nation, as well as the largest nation in Europe.</about>
+      <file name="russians.jpg">russians</file>
+    </nationality>
+  </country>
+  <country id="japan">
+  </country>
+</root>
